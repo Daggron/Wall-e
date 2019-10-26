@@ -1,0 +1,24 @@
+body{
+    background: #141411;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.main{
+    width:100vw;
+    height: auto;
+}
+
+.image-gallery{
+    width: 100vw;
+    height: auto;
+}
+
+.main img{
+    width:25%;
+    height: auto;
+    margin: 3%;
+    float: left;
+}
