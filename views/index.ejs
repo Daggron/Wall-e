@@ -9,11 +9,29 @@
 </head>
 <body>
 
+    <section class="backdrop">
+        <div class="background-container">
+            <img src="/images/back.jpg" alt="just a black background">
+        </div>
+        <div class="form">
+            <form method="POST" action="">
+                <input type="text" name="keyword" />
+                <button type="submit">
+                    Search
+                </button>
+            </form>
+        </div>
+    </section>
    <section class="main">
        <div class="image-gallery">
-            <% for(var  i=0;i<data.length;i++){ %>
-                    <img src="<%= data[i].small %>" class="image"/>
-            <% } %>
+
+                <% for(var  i=0;i<data.length;i++){ %>
+                    <div class="iamge">
+                        <img src="<%= data[i].small %>" class="image"/>
+                    </div>
+                <% } %>
+
+             
        </div>
    </section> 
   

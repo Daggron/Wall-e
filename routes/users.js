@@ -28,8 +28,5 @@ router.get('/',async (req,res)=>{
     
 });
 
-router.get('/Hello',(req,res)=>{
-    res.send("Second Page is also working fine");
-})
 
 module.exports = router;
