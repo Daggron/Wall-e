@@ -31,5 +31,8 @@
     "node-fetch": "^2.6.0",
     "nodemon": "^1.19.4",
     "unsplash-js": "^6.0.0"
+  },
+  "devDependencies": {
+    "locus": "^2.0.1"
   }
 }

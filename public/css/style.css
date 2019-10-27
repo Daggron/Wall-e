@@ -1,6 +1,7 @@
 body{
     background: #141411;
     margin:0;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     overflow-x: hidden;
 
@@ -9,6 +10,7 @@ body{
 .main{
     width:100vw;
     height: auto;
+    
 }
 
 .image-gallery{
@@ -27,6 +29,7 @@ body{
     width:100%;
     height: auto;
     margin: 3%;
+    object-fit: contain;
 }
 
 .backdrop{
@@ -41,3 +44,30 @@ body{
     max-height: 70vh;
 }
 
+.form{
+    width:70vw;
+    position: absolute;
+    top:30%;
+    left:15vw;
+}
+
+input[type='text']{
+    width:50vw;
+    height:40px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+button{
+    width:10vw;
+    height: 40px;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 2%;
+    cursor: pointer;
+    color: #141411;
+    background: greenyellow;
+}
