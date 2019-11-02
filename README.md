@@ -15,9 +15,9 @@ This is just a project which helps you getting images for your webapp or somethi
 
 ### For Developers just download the project and add a .env file and add your Api key and get started
 
-#### comments have been added to the code for help
+### comments have been added to the code for help
 
-##### Happy Hacking !! Developing :smiley:
+### Happy Hacking !! Developing :smiley:
 
 ## The site is live at <a href="https://wallpa.herokuapp.com/">https://wallpa.herokuapp.com/</a>
 
