@@ -17,7 +17,7 @@ This is just a project which helps you getting images for your webapp or somethi
 
 #### comments have been added to the code for help
 
-##### Happy Hacking !! Developing 
+##### Happy Hacking !! Developing :smiley:
 
 ## The site is live at <a href="https://wallpa.herokuapp.com/">https://wallpa.herokuapp.com/</a>
 
