@@ -7,6 +7,8 @@
     <title>Wall-E | Home Page</title>
     <link rel="stylesheet" href="/css/style.css" >
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" >
+  
 </head>
 <body>
 
@@ -27,14 +29,32 @@
        <div class="image-gallery">
 
                 <% for(var  i=0;i<data.length;i++){ %>
-                    <div class="iamge">
-                        <img src="<%= data[i].small %>" class="image"/>
-                    </div>
+                    <div class="image-box">
+
+                        <div class="iamge">
+                            <img src="<%= data[i].small %>" class="image"/>
+                        </div>
+
+                        <div class="options">
+                            <span>
+                                <a href="<%=data[i].raw %>" target="__blank">Raw</a>
+                            </span>
+                            <span>
+                                <a href="<%=data[i].full %>" target="__blank">Full</a>
+                            </span>
+                        </div>
+
+                     </div>
                 <% } %>
 
              
        </div>
    </section> 
+
+   <section>
+       
+   </section>
   
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 </body>
 </html>
