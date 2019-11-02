@@ -7,7 +7,8 @@ This is just a project which helps you getting images for your webapp or somethi
 
 
 <br>
-- Raw for editors to editors 
+
+- Raw for editors to edit and make some cool stuff
 
 - Full for normal users
 
